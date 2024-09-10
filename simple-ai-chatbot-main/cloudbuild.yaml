@@ -5,7 +5,7 @@ steps:
 
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build','-t','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}','.']
+  args: ['build','-t','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}','./simple-ai-chatbot-main/']
 
 #Push the image  
 - name: 'gcr.io/cloud-builders/docker'
