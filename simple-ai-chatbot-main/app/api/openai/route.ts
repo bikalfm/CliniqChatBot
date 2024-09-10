@@ -59,7 +59,7 @@ const master_prompt = "You are a chatbot to assist the customers of clinIQ AI un
 
 // Create an OpenAI API client
 const openai = new OpenAI({
-  apiKey: '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' || "",
+  apiKey: 'sk-svcacct-xHmcoQWYTKZj8OOrTW3E1R7q8CqefMe6sfD3NcFzl7pKOosZsrmT3BlbkFJskdS_EVi--gQSoAEeaXdATGEKrVwYC-ShcvgSvW_6x0X1Iz41AA' || "",
 });
 
 // IMPORTANT! Set the runtime to edge
