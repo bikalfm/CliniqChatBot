@@ -4,7 +4,7 @@ FROM node:18-alpine
 # Set the working directory in the container
 WORKDIR /app
 
-ADD ./simple-ai-chatbot-main/
+ADD ./simple-ai-chatbot-main/ ./app/
 
 # Copy package.json and yarn.lock to the working directory
 COPY package.json yarn.lock ./
