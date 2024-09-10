@@ -8,7 +8,7 @@ steps:
       - build
       - '-t'
       - 'gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
-      - .
+      - './simple-ai-chatbot-main/'
   - name: gcr.io/cloud-builders/docker
     args:
       - push
